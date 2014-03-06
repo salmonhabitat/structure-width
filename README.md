@@ -1,6 +1,8 @@
 structure-width
 ===============
 
+[![NPM](https://nodei.co/npm/structure-width.png?mini=true)](https://nodei.co/npm/structure-width/)
+
 `structure-width` estimates a bankfull width for streams and rivers in Downeast Maine based on their catchment sizes (in square miles).
 
 Usage
