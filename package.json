@@ -1,0 +1,15 @@
+{
+  "name": "structure-width",
+  "version": "0.1.0",
+  "description": "Estimate the width of an open-bottom arch culvert based on catchment area of the corresponding stream.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^2.10.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Jacques Tardie <hi@jacquestardie.org> (http://jacquestardie.org/)",
+  "license": "MIT"
+}
