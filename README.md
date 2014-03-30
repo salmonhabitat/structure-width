@@ -3,26 +3,16 @@
 structure-width
 ===============
 
-[![NPM](https://nodei.co/npm/structure-width.png?mini=true)](https://nodei.co/npm/structure-width/)
-
-`structure-width` estimates a bankfull width for streams and rivers in Downeast Maine based on their catchment sizes (in square miles).
+Estimate a bankfull width for streams and rivers in Downeast Maine based on their catchment sizes (in square miles). This module is based on a regression of over 100 projects completed in Downeast Maine. It will not be applicable elsewhere, as the physical characteristics of the landscape will be different.
 
 Usage
 -----
 
-Install the module:
+Install with npm:
 
-		npm install structure-width
+	npm install structure-width
 
-Require it:
+Require it, and use it:
 
-		var structure = require('./index.js');
-
-Use it:
-
-		structure(5); => 18.16
-
-Where this is applicable
-------------------------
-
-This module is based on a regression of over 100 projects **completed in Downeast Maine**. It's a low gradient, glacier dominated landscape, and as such, will not be applicable elsewhere.
+	var structure = require('./index.js');
+	structure(5); => 18.16
