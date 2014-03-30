@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/salmonhabitat/structure-width.svg?branch=master)](https://travis-ci.org/salmonhabitat/structure-width)
+
 structure-width
 ===============
 
